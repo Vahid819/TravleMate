@@ -21,10 +21,10 @@ function Navbar() {
                 </Link>
             </div>
             <div className='flex gap-4'>
-                <Link href={'/signup'}>
+                <Link href={'/sign-Up'}>
                     <Button className="transform transition duration-500 hover:scale-110">Sign Up</Button>
                 </Link>
-                <Link href={'/signin'}>
+                <Link href={'/sign-In'}>
                     <Button className="transform transition duration-500 hover:scale-110">Sign In</Button>
                 </Link>
             </div>
