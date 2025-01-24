@@ -6,7 +6,6 @@ import { useForm } from "react-hook-form"
 import { zodResolver } from '@hookform/resolvers/zod'
 import { Button } from "@/components/ui/button"
 import { signUpSchema } from "@/zodSchema/zodSignUp"
-import {Vedio} from "@/../public/index"
 import {
   Form,
   FormControl,
@@ -36,7 +35,7 @@ function SignUP() {
   }
 
   return (
-    <div className=' w-screen flex justify-center items-center h-screen bg-blend-screen bg-cover bg-center bg-no-repeat' style={{backgroundBlendMode: 'overlay', backgroundImage:{}}}>
+    <div className=' w-screen flex justify-center items-center h-screen bg-blend-screen bg-cover bg-center bg-no-repeat'>
     <div className="w-full max-w-md h-auto my-auto mx-auto bg-white rounded-lg shadow-md p-8 transform transition duration-500">
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">Sign Up</h1>
       <Form {...form}>
